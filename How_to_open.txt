@@ -6,5 +6,20 @@ for video stream into site ssh to "ssh pi@10.128.19.196"
 	Then go to "cd Developer/server/camera/streaming/"
 	run python main.py 
 
+for event prediction module
+	In islubuntu (pc)  go to "workspace/room-sensor/"
+	git clone https://github.com/Asnai/final_room.git
+	install libraries
+	go into folder
+	run python3 prediction.py
 
-In islubuntu  go to "workspace/room-sensor/"
+
+for video stream into site ssh to "ssh pi@10.128.19.196" 
+	passowrd 1234
+	Then go to "cd Developer/server/camera/streaming/"
+	run python main.py 
+
+
+For web go to "workspace/room-sensor/ web_app "
+	run python -m http.server 1337
+	Now you can access the web using 168.120.9.121:1337/user.html and 168.120.9.121:1337/index_admin.html
