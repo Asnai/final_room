@@ -1,0 +1,10 @@
+Run "send_raw_sensor.py stream" in one of the directories in raspberry pi(168.120.9.121)
+(forgot the name of directory)
+
+for video stream into site ssh to "ssh pi@10.128.19.196" 
+	passowrd 1234
+	Then go to "cd Developer/server/camera/streaming/"
+	run python main.py 
+
+
+In islubuntu  go to "workspace/room-sensor/"
